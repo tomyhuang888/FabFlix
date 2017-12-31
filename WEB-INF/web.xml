@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+  Copyright 2004 The Apache Software Foundation
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+
+    <display-name>FabFlix</display-name>
+    <description>
+       FabFlix
+    </description>
+
+
+  <!-- Define servlets that are included in the example application -->
+
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>Login</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>Logout</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShoppingCart</servlet-name>
+    <servlet-class>ShoppingCart</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddToCart</servlet-name>
+    <servlet-class>AddToCart</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Transaction</servlet-name>
+    <servlet-class>Transaction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Browse</servlet-name>
+    <servlet-class>Browse</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Main</servlet-name>
+    <servlet-class>Main</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Movie</servlet-name>
+    <servlet-class>Movie</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Search</servlet-name>
+    <servlet-class>Search</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PopularMovieList</servlet-name>
+    <servlet-class>PopularMovieList</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Star</servlet-name>
+    <servlet-class>Star</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginMobile</servlet-name>
+    <servlet-class>LoginMobile</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SearchMobile</servlet-name>
+    <servlet-class>SearchMobile</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HoverMovie</servlet-name>
+    <servlet-class>HoverMovie</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SuggestMovies</servlet-name>
+    <servlet-class>SuggestMovies</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShoppingCart</servlet-name>
+    <url-pattern>/ShoppingCart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddToCart</servlet-name>
+    <url-pattern>/AddToCart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Transaction</servlet-name>
+    <url-pattern>/Transaction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Browse</servlet-name>
+    <url-pattern>/Browse</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>Main</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Movie</servlet-name>
+    <url-pattern>/Movie</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PopularMovieList</servlet-name>
+    <url-pattern>/PopularMovieList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Search</servlet-name>
+    <url-pattern>/Search</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Star</servlet-name>
+    <url-pattern>/Star</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginMobile</servlet-name>
+    <url-pattern>/LoginMobile</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchMobile</servlet-name>
+    <url-pattern>/SearchMobile</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HoverMovie</servlet-name>
+    <url-pattern>/HoverMovie</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SuggestMovies</servlet-name>
+    <url-pattern>/SuggestMovies</url-pattern>
+  </servlet-mapping>
+
+</web-app>
